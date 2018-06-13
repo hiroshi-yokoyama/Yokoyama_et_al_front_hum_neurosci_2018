@@ -1,5 +1,12 @@
-* Source code
+## Synopsis
+This is a Matlab demo codes of functional connectivity analysis based on the time-varying phase synchronization with a data-driven manner.
+The basis of these programs are discribed described in the following paper (Yokoyama et al, 2018, https://www.frontiersin.org/articles/10.3389/fnhum.2018.00259/abstract).
 
+See the details of the algrorithms in the programs for the description of the supplementary materials in above paper (correctly published
+at this link: ghttps://www.frontiersin.org/articles/10.3389/fnhum.2018.
+00259/full#supplementary-material.h).
+
+## Source code
 All programs are provided with Matlab format (*.m, or *.mexw32/64):
 
 Main program:
@@ -29,3 +36,10 @@ Requirements:
    https://sccn.ucsd.edu/eeglab/index.php
    Download this toolbox, and add the path of saved directory of EEGLAB toolbox before use above scripts
    >> addpath('-saved directory of EEGLAB toolbox-')
+
+## References
+
+Yokoyama H, Nambu I, Izawa J and Wada Y. (2018). Alpha Phase Synchronization of Parietal Areas Reflects Switch-Specific Activity During Mental Rotation: an EEG study. Frontiers in Human Neuroscience,  doi: 10.3389/fnhum.2018.00259.
+
+## License
+Copyright: ? 2018 Yokoyama, Nambu, Izawa and Wada.
